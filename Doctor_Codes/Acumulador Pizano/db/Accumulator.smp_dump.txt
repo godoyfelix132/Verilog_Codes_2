@@ -1,0 +1,6 @@
+
+State Machine - |Accumulator|One_Shot:ShotModule|state
+Name state.Waiting_Shot state.Waiting_Not_Shot state.Shot_State 
+state.Waiting_Shot 0 0 0 
+state.Shot_State 1 0 1 
+state.Waiting_Not_Shot 1 1 0 

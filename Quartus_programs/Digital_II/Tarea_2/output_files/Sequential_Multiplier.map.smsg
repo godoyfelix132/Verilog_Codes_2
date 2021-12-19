@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Sequential_Multiplier.v(45): always construct contains both blocking and non-blocking assignments File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v Line: 45

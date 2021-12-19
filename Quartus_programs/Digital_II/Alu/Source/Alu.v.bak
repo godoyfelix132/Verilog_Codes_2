@@ -1,0 +1,62 @@
+module ALU
+#(
+    parameter WORD_LENGTH = 4
+)
+(
+    input [WORD_LENGTH-1:0]A,
+    input [WORD_LENGTH-1:0]B,
+    input [3:0]Ctrl,
+	 input shifter;
+
+    output Carry,
+    output [WORD_LENGTH-1:0] C
+);
+
+reg [WORD_LENGTH-1:0]mask = {WORD_LENGTH{1'b1}};
+reg [WORD_LENGTH-1:0]c_reg;
+reg carry_reg;
+reg [(2*WORD_LENGTH)-1:0]c_temp_reg;
+
+always @(*) begin
+
+	case (Ctrl)
+	4'b0000: c_temp_reg = A + B;
+	4'b0001: c_temp_reg = A - B;
+	4'b0010: c_temp_reg = A * B;
+	4'b0011: c_temp_reg = A / B;
+	4'b0100: c_temp_reg = A % B;
+	4'b0101: c_temp_reg = {{WORD_LENGTH{shifter}},A[WORD_LENGTH-1: B]};//A>>B 1111=0111 0000=1000
+	4'b0110: c_temp_reg = {{WORD_LENGTH{shifter}},A[WORD_LENGTH-1: B]};
+	4'b0111: c_temp_reg = {A[WORD_LENGTH-1-B: 0],{WORD_LENGTH{shifter}}};//A<<B 1111=1110 0000=0001
+	4'b1000: c_temp_reg = {A[WORD_LENGTH-1-B: 0],{WORD_LENGTH{shifter}}};
+	4'b1001: c_temp_reg = &A;
+	4'b1010: c_temp_reg = |A;
+	4'b1011: c_temp_reg = ^A;
+	4'b1100: c_temp_reg = A & B;
+	4'b1101: c_temp_reg = A | B;
+	4'b1110: c_temp_reg = A ^ B; 
+	4'b1111: begin 
+		if(A>B)c_temp_reg = 0;
+		else if (A<B)c_temp_reg = 1;
+		else c_temp_reg = 2;
+		end
+	default: c_temp_reg = 0; 
+	endcase
+
+	if (c_temp_reg > mask || 
+	((Ctrl == 4'b0101 && A[B-1] == 1'b1 ) || (Ctrl == 4'b1000 && A[WORD_LENGTH-B] == 1'b1)))
+	begin
+		carry_reg = 1'b1;
+	end
+	else begin
+		carry_reg = 1'b0;
+	end
+	
+   c_reg = c_temp_reg[WORD_LENGTH-1:0];
+
+end
+
+assign C = c_reg;
+assign Carry = carry_reg;    
+	 
+endmodule

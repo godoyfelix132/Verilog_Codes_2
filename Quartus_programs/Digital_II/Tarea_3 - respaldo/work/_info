@@ -1,0 +1,395 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus_programs/Digital_II/Tarea_2
+vAdd_Sub
+Z0 !s110 1616273199
+!i10b 1
+!s100 aL[MXCASoF>8zYaQ=:mMS0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQkc?@L71i9Sg=ld4A65EX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Quartus_programs/Digital_II/Tarea_3
+w1615871261
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Add_Sub.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Add_Sub.v
+!i122 819
+L0 1 25
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1616273198.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Add_Sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Add_Sub.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@add_@sub
+vAnd_Gate
+R0
+!i10b 1
+!s100 `77YA<g57PB6i4khV4nPz0
+R1
+Ih<iIOk>kNWc4ZRHja?@Vc2
+R2
+R3
+w1593221626
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/And_Gate.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/And_Gate.v
+!i122 820
+L0 11 17
+R4
+r1
+!s85 0
+31
+Z7 !s108 1616273199.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/And_Gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/And_Gate.v|
+!i113 1
+R5
+R6
+n@and_@gate
+vControl
+R0
+!i10b 1
+!s100 fbfac=ZDTPGiOloVn_VRX3
+R1
+I;Clm<KcN_kf5TofG]HQN?2
+R2
+R3
+w1616097110
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v
+!i122 821
+L0 1 157
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v|
+!i113 1
+R5
+R6
+n@control
+vDemux
+Z8 !s110 1616273200
+!i10b 1
+!s100 Vch8ZWO;Wlab;:8jlD3oE1
+R1
+Idgg9@L?W`Hh5kS7BlOP8;2
+R2
+R3
+w1615860236
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Demux.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Demux.v
+!i122 822
+L0 1 19
+R4
+r1
+!s85 0
+31
+Z9 !s108 1616273200.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Demux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Demux.v|
+!i113 1
+R5
+R6
+n@demux
+vMux_Two_To_One
+R8
+!i10b 1
+!s100 Y9FJUhFTCMbB`zzY`X:ME3
+R1
+IQK0<bU03FM`cXI=Q@W^=c1
+R2
+R3
+w1615878998
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Mux_Two_To_One.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Mux_Two_To_One.v
+!i122 823
+L0 11 27
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Mux_Two_To_One.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Mux_Two_To_One.v|
+!i113 1
+R5
+R6
+n@mux_@two_@to_@one
+vNot_Gate
+Z10 !s110 1616273201
+!i10b 1
+!s100 `h1iXCni3eSP:K@R89R2G2
+R1
+IekPHg;XmT6RK4X7JJN7W`0
+R2
+R3
+w1593221631
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Not_Gate.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Not_Gate.v
+!i122 824
+L0 11 16
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Not_Gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Not_Gate.v|
+!i113 1
+R5
+R6
+n@not_@gate
+vOne_Shot
+R10
+!i10b 1
+!s100 TkML6jk=ELM_4=`h=F0j62
+R1
+I7P[1[49L]Z0bGA7K9Mkca2
+R2
+R3
+w1595748946
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/One_Shot.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/One_Shot.v
+!i122 825
+L0 2 86
+R4
+r1
+!s85 0
+31
+Z11 !s108 1616273201.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/One_Shot.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/One_Shot.v|
+!i113 1
+R5
+R6
+n@one_@shot
+vOr_Gate
+R10
+!i10b 1
+!s100 eU@i7QF^TeKJ8[2^_4DzI3
+R1
+IW1QXzVh7NMniFY540aRoK3
+R2
+R3
+w1595607166
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v
+!i122 826
+L0 11 18
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v|
+!i113 1
+R5
+R6
+n@or_@gate
+vRegister_With_Enable
+Z12 !s110 1616273202
+!i10b 1
+!s100 [Ge?VA8:f5f3^Szj]4bNP3
+R1
+I:Y6CZ=]g0_JBAj>:9cBzl1
+R2
+R3
+w1595261767
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v
+!i122 827
+L0 3 31
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v|
+!i113 1
+R5
+R6
+n@register_@with_@enable
+vRegister_With_Reset
+R12
+!i10b 1
+!s100 A@ik4kmN>S60Jj2YLah??2
+R1
+I@?Qi;jl4MLgJl5LhU7lUA0
+R2
+R3
+w1615879884
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Reset.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Reset.v
+!i122 828
+L0 2 33
+R4
+r1
+!s85 0
+31
+Z13 !s108 1616273202.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Reset.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Reset.v|
+!i113 1
+R5
+R6
+n@register_@with_@reset
+vSequential_Divider
+Z14 !s110 1616273204
+!i10b 1
+!s100 U<jAORalUoP7Koc4ZKV2_1
+R1
+IkaKNT[_OGRg`JQYH3_]X=1
+R2
+R3
+w1616272478
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider.v
+!i122 834
+L0 1 56
+R4
+r1
+!s85 0
+31
+!s108 1616273204.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider.v|
+!i113 1
+R5
+R6
+n@sequential_@divider
+vSequential_Divider_tb
+R14
+!i10b 1
+!s100 jMReXknNf11GEQ`l@:jEG2
+R1
+I:]SO>JiQ_hFMd7X@g6z<I1
+R2
+R3
+w1616273184
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v
+!i122 833
+L0 1 40
+R4
+r1
+!s85 0
+31
+Z15 !s108 1616273203.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v|
+!i113 1
+R5
+R6
+n@sequential_@divider_tb
+vSequential_Multiplier
+R12
+!i10b 1
+!s100 QBz^V:LObS>R?a_:ECkmW0
+R1
+I6Mm0V<z<I4CZHh?k`Gc^G2
+R2
+R3
+w1616103105
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v
+!i122 829
+L0 1 237
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v|
+!i113 1
+R5
+R6
+n@sequential_@multiplier
+vSequential_Multiplier_tb
+Z16 !s110 1616273203
+!i10b 1
+!s100 Mec1<FkkC2jz9Wi8ahIXC1
+R1
+I_LRnRoKEB5FE:VYK[DRY83
+R2
+R3
+w1616103109
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v
+!i122 830
+L0 15 48
+R4
+r1
+!s85 0
+31
+R13
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v|
+!i113 1
+R5
+R6
+n@sequential_@multiplier_tb
+vShift_Register_left
+R16
+!i10b 1
+!s100 8T4Ln1EfY[2kK4T5U:olS3
+R1
+I<K2B15M9g]K2bgTIW^M[B3
+R2
+R3
+w1616103069
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_left.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_left.v
+!i122 831
+Z17 L0 11 41
+R4
+r1
+!s85 0
+31
+R15
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_left.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_left.v|
+!i113 1
+R5
+R6
+n@shift_@register_left
+vShift_Register_rigth
+R16
+!i10b 1
+!s100 cWhP`?<k=P00TjDF72eXW1
+R1
+IzV@>AJmnG7Y:ehUboO7nR2
+R2
+R3
+w1616103071
+8D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_rigth.v
+FD:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_rigth.v
+!i122 832
+R17
+R4
+r1
+!s85 0
+31
+R15
+!s107 D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_rigth.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_rigth.v|
+!i113 1
+R5
+R6
+n@shift_@register_rigth

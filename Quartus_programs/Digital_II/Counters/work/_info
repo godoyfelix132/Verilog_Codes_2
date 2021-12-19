@@ -1,0 +1,371 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus_programs/Digital_II/Alu
+vClock_Divider
+Z0 !s110 1614632290
+!i10b 1
+!s100 Cbn1LA[h8_=A;geHc^5Bc1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_X[lGkYjia0`I9NS]RL;A1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Quartus_programs/Digital_II/Counters
+w1614630032
+8D:/Quartus_programs/Digital_II/Counters/Source/Clock_Divider.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Clock_Divider.v
+!i122 354
+L0 1 70
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1614632290.000000
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Clock_Divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Clock_Divider.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@clock_@divider
+vCounter_0_99_TOP_tb
+Z8 !s110 1614632291
+!i10b 1
+!s100 McDSaz`8XX1>i23NoJ21g1
+R1
+IR8M_06646ZP?I7jY5KE131
+R2
+R3
+w1594190740
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_tb.v
+!i122 356
+L0 15 75
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_tb.v|
+!i113 1
+R6
+R7
+n@counter_0_99_@t@o@p_tb
+vCounter_BCD_TOP
+Z9 !s110 1614632295
+!i10b 1
+!s100 `[OUHQGT<L>zjnPIW?KbZ0
+R1
+I7o]UP]=2jTC;JM;h]MA@U0
+R2
+R3
+w1614622083
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP.v
+!i122 359
+L0 1 60
+R4
+r1
+!s85 0
+31
+Z10 !s108 1614632295.000000
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP.v|
+!i113 1
+R6
+R7
+n@counter_@b@c@d_@t@o@p
+vCounter_BCD_TOP_tb
+R9
+!i10b 1
+!s100 AlVYgBnz85Sn8_S`:DcP_1
+R1
+IJ@^TCAWLM47`;B]jWCP>;1
+R2
+R3
+w1614621562
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP_tb.v
+!i122 360
+L0 4 35
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP_tb.v|
+!i113 1
+R6
+R7
+n@counter_@b@c@d_@t@o@p_tb
+vCounter_binary
+R0
+!i10b 1
+!s100 QM4[<?gJ=9e43dk1h9_f<1
+R1
+ImX>W^F:IcAYYk^GmSnhP91
+R2
+R3
+w1614620361
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_binary.v
+!i122 355
+L0 1 43
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary.v|
+!i113 1
+R6
+R7
+n@counter_binary
+vCounter_binary_TOP
+R8
+!i10b 1
+!s100 m^M^=XzO>HYcY]SKcHI6a3
+R1
+IzoHF4N]^^Fdc?_XSM=R<Y0
+R2
+R3
+w1614620507
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP.v
+!i122 357
+L0 1 41
+R4
+r1
+!s85 0
+31
+!s108 1614632291.000000
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP.v|
+!i113 1
+R6
+R7
+n@counter_binary_@t@o@p
+vCounter_binary_TOP_tb
+R9
+!i10b 1
+!s100 W9QCO_hJ;Wn7?mDW@@cfb1
+R1
+IDG=<dUg;e2jabNno<k5fl3
+R2
+R3
+w1614620194
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP_tb.v
+!i122 358
+L0 4 34
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP_tb.v|
+!i113 1
+R6
+R7
+n@counter_binary_@t@o@p_tb
+vCounter_gray
+Z11 !s110 1614632296
+!i10b 1
+!s100 X]_=zcTAH2zAja^J@Unmf2
+R1
+I_I>=Th1^?`3V=SR;[Ln7W1
+R2
+R3
+w1614630697
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_gray.v
+!i122 363
+L0 4 65
+R4
+r1
+!s85 0
+31
+Z12 !s108 1614632296.000000
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray.v|
+!i113 1
+R6
+R7
+n@counter_gray
+vCounter_gray_tb
+R11
+!i10b 1
+!s100 UUg3>33<jRVbk?oPFPL9^1
+R1
+IGEk[1LETAF2KZhDh?i[A?1
+R2
+R3
+w1614630787
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_gray_tb.v
+!i122 364
+L0 4 36
+R4
+r1
+!s85 0
+31
+R12
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray_tb.v|
+!i113 1
+R6
+R7
+n@counter_gray_tb
+vCounter_LFSR
+R11
+!i10b 1
+!s100 OFX6cNSol90DkCHHOFeV>2
+R1
+I;h9DoQ2nzJmk0YYWP:[m53
+R2
+R3
+w1614632135
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR.v
+!i122 365
+L0 1 19
+R4
+r1
+!s85 0
+31
+R12
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR.v|
+!i113 1
+R6
+R7
+n@counter_@l@f@s@r
+vCounter_LSFR_tb
+!s110 1614632297
+!i10b 1
+!s100 ^iTnBKERa>zPk16`E^1m>3
+R1
+I[aG`eij6bc`2eSQG6Xzh21
+R2
+R3
+w1614632287
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR_tb.v
+!i122 366
+L0 4 18
+R4
+r1
+!s85 0
+31
+R12
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR_tb.v|
+!i113 1
+R6
+R7
+n@counter_@l@s@f@r_tb
+vCounter_one_hot
+R11
+!i10b 1
+!s100 fbOjdXS]JjC039H=lkSi81
+R1
+IgX33D2WbI>z2EdI88FGFL1
+R2
+R3
+w1614628550
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot.v
+!i122 361
+L0 1 21
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot.v|
+!i113 1
+R6
+R7
+n@counter_one_hot
+vCounter_one_hot_tb
+R11
+!i10b 1
+!s100 i:^?5Q36QI@c9nKn2mN3k1
+R1
+I6of6X_ecWm@Ij;Y@fDogR2
+R2
+R3
+w1614630016
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_tb.v
+!i122 362
+L0 4 33
+R4
+r1
+!s85 0
+31
+R12
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_tb.v|
+!i113 1
+R6
+R7
+n@counter_one_hot_tb
+vCounter_one_hot_TOP
+Z13 !s110 1614629318
+!i10b 1
+!s100 GeLD2ldOG5_Ab=cJgIF3@3
+R1
+IeKQT]`>edXYQ`X^EXJXPB3
+R2
+R3
+w1614628963
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP.v
+!i122 301
+L0 1 36
+R4
+r1
+!s85 0
+31
+Z14 !s108 1614629318.000000
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP.v|
+!i113 1
+R6
+R7
+n@counter_one_hot_@t@o@p
+vCounter_one_hot_TOP_tb
+R13
+!i10b 1
+!s100 F8FIP0=3>U6EA^L92KT]h2
+R1
+IBIKfE_[7@kkbVi37la^O30
+R2
+R3
+w1614629311
+8D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP_tb.v
+FD:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP_tb.v
+!i122 302
+L0 4 32
+R4
+r1
+!s85 0
+31
+R14
+!s107 D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_TOP_tb.v|
+!i113 1
+R6
+R7
+n@counter_one_hot_@t@o@p_tb

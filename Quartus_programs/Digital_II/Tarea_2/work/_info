@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus_programs/Digital_II/Tarea_1
+vSequential_Multiplier
+Z0 !s110 1615946703
+!i10b 1
+!s100 TA:::RW^3PnA<Pz?oF2Io3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IEkk`jEfh==Nk0<0P1df@S3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Quartus_programs/Digital_II/Tarea_2
+w1615925267
+8D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v
+FD:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v
+!i122 58
+L0 11 108
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1615946703.000000
+!s107 D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@sequential_@multiplier
+vSequential_Multiplier_tb
+R0
+!i10b 1
+!s100 [46=fdMbR=32CeLLC9mT]1
+R1
+IWg<bZHegcVH8S4V]XbbeO2
+R2
+R3
+w1615946697
+8D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v
+FD:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v
+!i122 59
+L0 15 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v|
+!i113 1
+R6
+R7
+n@sequential_@multiplier_tb

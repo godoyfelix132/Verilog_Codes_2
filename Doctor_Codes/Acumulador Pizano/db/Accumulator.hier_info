@@ -1,0 +1,185 @@
+|Accumulator
+clk => clk.IN1
+reset => reset.IN3
+enable => enable.IN1
+Read => Read.IN1
+Data_Input[0] => Add0.IN8
+Data_Input[1] => Add0.IN7
+Data_Input[2] => Add0.IN6
+Data_Input[3] => Add0.IN5
+Data_Input[4] => Add0.IN4
+Data_Input[5] => Add0.IN3
+Data_Input[6] => Add0.IN2
+Data_Input[7] => Add0.IN1
+clk_PLL <= clkInter.DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[0] <= Register:OutputRegister.Data_Output
+Data_Output[1] <= Register:OutputRegister.Data_Output
+Data_Output[2] <= Register:OutputRegister.Data_Output
+Data_Output[3] <= Register:OutputRegister.Data_Output
+Data_Output[4] <= Register:OutputRegister.Data_Output
+Data_Output[5] <= Register:OutputRegister.Data_Output
+Data_Output[6] <= Register:OutputRegister.Data_Output
+Data_Output[7] <= Register:OutputRegister.Data_Output
+
+
+|Accumulator|Clock_Gen:Clock_Gen_inst
+inclk0 => sub_wire3[0].IN1
+c0 <= altpll:altpll_component.clk
+
+
+|Accumulator|Clock_Gen:Clock_Gen_inst|altpll:altpll_component
+inclk[0] => pll.CLK
+inclk[1] => ~NO_FANOUT~
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= <GND>
+clk[2] <= <GND>
+clk[3] <= <GND>
+clk[4] <= <GND>
+clk[5] <= <GND>
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= <GND>
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= sclkout1.DB_MAX_OUTPUT_PORT_TYPE
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|Accumulator|One_Shot:ShotModule
+clk => state~2.DATAIN
+reset => state~4.DATAIN
+Start => state.DATAB
+Start => Selector1.IN5
+Start => Selector0.IN1
+Shot <= Shot.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Accumulator|Register:Accumulator
+clk => Data_reg[0].CLK
+clk => Data_reg[1].CLK
+clk => Data_reg[2].CLK
+clk => Data_reg[3].CLK
+clk => Data_reg[4].CLK
+clk => Data_reg[5].CLK
+clk => Data_reg[6].CLK
+clk => Data_reg[7].CLK
+reset => Data_reg[0].ACLR
+reset => Data_reg[1].ACLR
+reset => Data_reg[2].ACLR
+reset => Data_reg[3].ACLR
+reset => Data_reg[4].ACLR
+reset => Data_reg[5].ACLR
+reset => Data_reg[6].ACLR
+reset => Data_reg[7].ACLR
+enable => Data_reg[0].ENA
+enable => Data_reg[7].ENA
+enable => Data_reg[6].ENA
+enable => Data_reg[5].ENA
+enable => Data_reg[4].ENA
+enable => Data_reg[3].ENA
+enable => Data_reg[2].ENA
+enable => Data_reg[1].ENA
+Data_Input[0] => Data_reg[0].DATAIN
+Data_Input[1] => Data_reg[1].DATAIN
+Data_Input[2] => Data_reg[2].DATAIN
+Data_Input[3] => Data_reg[3].DATAIN
+Data_Input[4] => Data_reg[4].DATAIN
+Data_Input[5] => Data_reg[5].DATAIN
+Data_Input[6] => Data_reg[6].DATAIN
+Data_Input[7] => Data_reg[7].DATAIN
+Data_Output[0] <= Data_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[1] <= Data_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[2] <= Data_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[3] <= Data_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[4] <= Data_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[5] <= Data_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[6] <= Data_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[7] <= Data_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Accumulator|Register:OutputRegister
+clk => Data_reg[0].CLK
+clk => Data_reg[1].CLK
+clk => Data_reg[2].CLK
+clk => Data_reg[3].CLK
+clk => Data_reg[4].CLK
+clk => Data_reg[5].CLK
+clk => Data_reg[6].CLK
+clk => Data_reg[7].CLK
+reset => Data_reg[0].ACLR
+reset => Data_reg[1].ACLR
+reset => Data_reg[2].ACLR
+reset => Data_reg[3].ACLR
+reset => Data_reg[4].ACLR
+reset => Data_reg[5].ACLR
+reset => Data_reg[6].ACLR
+reset => Data_reg[7].ACLR
+enable => Data_reg[0].ENA
+enable => Data_reg[7].ENA
+enable => Data_reg[6].ENA
+enable => Data_reg[5].ENA
+enable => Data_reg[4].ENA
+enable => Data_reg[3].ENA
+enable => Data_reg[2].ENA
+enable => Data_reg[1].ENA
+Data_Input[0] => Data_reg[0].DATAIN
+Data_Input[1] => Data_reg[1].DATAIN
+Data_Input[2] => Data_reg[2].DATAIN
+Data_Input[3] => Data_reg[3].DATAIN
+Data_Input[4] => Data_reg[4].DATAIN
+Data_Input[5] => Data_reg[5].DATAIN
+Data_Input[6] => Data_reg[6].DATAIN
+Data_Input[7] => Data_reg[7].DATAIN
+Data_Output[0] <= Data_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[1] <= Data_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[2] <= Data_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[3] <= Data_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[4] <= Data_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[5] <= Data_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[6] <= Data_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+Data_Output[7] <= Data_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

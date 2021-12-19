@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus_programs/Digital_II/Multiplier
+vAlu
+Z0 !s110 1614613961
+!i10b 1
+!s100 nmMKQS:i4LBSaf>kfJ^SB2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:CGB73aCj`9=9Pf^Wfdz^1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Quartus_programs/Digital_II/Alu
+w1614613754
+8D:/Quartus_programs/Digital_II/Alu/Source/Alu.v
+FD:/Quartus_programs/Digital_II/Alu/Source/Alu.v
+!i122 37
+L0 1 70
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1614613961.000000
+!s107 D:/Quartus_programs/Digital_II/Alu/Source/Alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Alu/Source/Alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@alu
+vALU_tb
+R0
+!i10b 1
+!s100 VbCc<JKjTff`zeY1[D6Fa0
+R1
+I0EjF_OB;@XMCfOe2OaZ:O3
+R2
+R3
+w1614613956
+8D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v
+FD:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v
+!i122 38
+L0 4 106
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v|
+!i113 1
+R6
+R7
+n@a@l@u_tb

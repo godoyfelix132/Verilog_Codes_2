@@ -1,0 +1,8 @@
+D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}}

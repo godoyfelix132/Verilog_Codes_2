@@ -1,0 +1,15 @@
+D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sequential_Multiplier_tb
+
+Top level modules:
+	Sequential_Multiplier_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sequential_Multiplier
+
+Top level modules:
+	Sequential_Multiplier
+
+} {} {}}

@@ -1,0 +1,5 @@
+
+State Machine - |Blinking_Machine|state
+Name state.OFF 
+state.ON 0 
+state.OFF 1 

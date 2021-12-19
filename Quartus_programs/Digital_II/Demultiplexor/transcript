@@ -1,0 +1,123 @@
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Encoder_tb
+# vsim -gui work.Encoder_tb 
+# Start time: 12:59:05 on Feb 11,2021
+# Loading work.Encoder_tb
+# Loading work.Encoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Priority_Encoder/Source/Encoder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Encoder_tb/DUV File: D:/Quartus_programs/Digital_II/Priority_Encoder/Source/Encoder_tb.v Line: 24
+add wave -position insertpoint sim:/Encoder_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Encoder_tb
+# Loading work.Encoder
+# Warning in wave window restart: (vish-4014) No objects found matching '/Encoder_tb/a_tb'. 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Encoder_tb
+# Loading work.Encoder
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Encoder_tb
+# Loading work.Encoder
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Encoder_tb
+# Loading work.Encoder
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Encoder_tb
+# Loading work.Encoder
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Encoder.v was successful.
+# Compile of Encoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Encoder_tb
+# Loading work.Encoder
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:42:24 on Feb 11,2021, Elapsed time: 9:43:19
+# Errors: 0, Warnings: 1

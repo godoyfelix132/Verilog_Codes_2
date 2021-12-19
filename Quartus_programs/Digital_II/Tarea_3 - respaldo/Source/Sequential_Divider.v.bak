@@ -1,0 +1,58 @@
+
+module Sequential_Divider #(parameter WORD_LENGTH = 8)
+(
+	////// Entradas //////
+	input [WORD_LENGTH-1:0] Dividendo,
+	input [WORD_LENGTH-1:0] Divisor,
+	input clk,
+	input reset,
+	input start,
+	
+	///// Salidas /////
+	output [WORD_LENGTH-1:0] Resultado,
+	output ready
+); 
+
+
+reg [WORD_LENGTH-1:0] Q;   //// Almacenamiento temporal del resultado
+reg [WORD_LENGTH-1:0] M;
+reg [WORD_LENGTH:0] A;
+reg [2*WORD_LENGTH:0] temp;
+//reg temp_ready = 0;
+
+
+reg index = 0;   /// Variable para el ciclo for
+
+
+always @(posedge clk) begin
+		
+		if (index == 0) begin
+			Q = Dividendo;		/// Asignar entradas a regisros
+			M = Divisor;
+			A = 0;
+			index = 1;
+		
+		end else begin
+			temp = {A,Q};
+			temp = temp << 1;
+			Q = temp [WORD_LENGTH-1:0];
+			A = temp [WORD_LENGTH*2:WORD_LENGTH];
+			
+			A = A - M;
+
+			
+			if(A & {1'b1,{(WORD_LENGTH-1){1'b0}}}) begin
+				 
+				A = A+M;
+			end else
+				Q[0] = 1;
+				
+			//index = index+1;
+		end
+end
+
+assign Resultado = Q;    //// Asignar el resultado a la salida
+//assign ready = temp_ready;
+
+endmodule
+

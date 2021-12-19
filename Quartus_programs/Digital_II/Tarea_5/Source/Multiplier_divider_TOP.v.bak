@@ -1,0 +1,50 @@
+module Multiplier_divider_TOP
+#(
+    parameter WORD_LENGTH = 9
+) 
+(
+    input clk,
+    input reset,
+	 
+    input start,
+	 input load,
+	 input op,
+    input [WORD_LENGTH-1 : 0] Data,
+	 
+    output ready,
+    output [2*WORD_LENGTH-1 : 0] Result,
+	 output stored
+);
+
+//wire clk_PLL;
+//
+//Clock_Divider
+//#(
+//	.FRECUENCY(FRECUENCY)
+//)
+//Clk_1Hz
+//(
+//	.clk_FPGA(clk),
+//	.reset(reset),
+//	
+//	.Clock_Signal(Output_clk_1Hz_wire)
+//);
+
+Sequential_Multiplier 
+#(
+    .WORD_LENGTH(WORD_LENGTH)
+) 
+(
+    .clk(clk),
+    .reset(reset),	 
+    .start(start),
+	 .load(load),
+	 .op(op),
+    .Data(Data),
+	 
+    .ready(ready),
+    .Result(Result),
+	 .stored(stored)
+);
+
+endmodule

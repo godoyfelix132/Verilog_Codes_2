@@ -1,0 +1,415 @@
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 08:56:50 on Mar 01,2021
+# Loading work.ALU_tb
+# Loading work.Alu
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'Ctrl'. The port definition is at: D:/Quartus_programs/Digital_II/Alu/Source/Alu.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUV File: D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v Line: 17
+add wave -position insertpoint sim:/ALU_tb/*
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'Ctrl'. The port definition is at: D:/Quartus_programs/Digital_II/Alu/Source/Alu.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUV File: D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v Line: 17
+# Warning in wave window restart: (vish-4014) No objects found matching '/ALU_tb/Control_tb'. 
+quit -sim
+# End time: 09:04:25 on Mar 01,2021, Elapsed time: 0:07:35
+# Errors: 0, Warnings: 2
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 09:04:32 on Mar 01,2021
+# Loading work.ALU_tb
+# Loading work.Alu
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'Ctrl'. The port definition is at: D:/Quartus_programs/Digital_II/Alu/Source/Alu.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUV File: D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v Line: 17
+add wave -position insertpoint sim:/ALU_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'Ctrl'. The port definition is at: D:/Quartus_programs/Digital_II/Alu/Source/Alu.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUV File: D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v Line: 17
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'Ctrl'. The port definition is at: D:/Quartus_programs/Digital_II/Alu/Source/Alu.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUV File: D:/Quartus_programs/Digital_II/Alu/Source/ALU_tb.v Line: 17
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Alu.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.Alu
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 11:11:04 on Mar 01,2021, Elapsed time: 2:06:32
+# Errors: 0, Warnings: 1

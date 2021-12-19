@@ -1,0 +1,29 @@
+D:/Quartus_programs/Digital_II/Multiplier/Source/adders_cell.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Multiplier/Source/adders_cell.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adders_cell
+
+Top level modules:
+	adders_cell
+
+} {} {}} D:/Quartus_programs/Digital_II/Multiplier/Source/full_adder.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Multiplier/Source/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} D:/Quartus_programs/Digital_II/Multiplier/Source/half_adder.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Multiplier/Source/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} D:/Quartus_programs/Digital_II/Multiplier/Source/multiplier_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Multiplier/Source/multiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier_tb
+
+Top level modules:
+	multiplier_tb
+
+} {} {}}

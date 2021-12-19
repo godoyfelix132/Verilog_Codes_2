@@ -1,0 +1,27 @@
+
+State Machine - |Multiplier_divider_TOP|Sequential_Multiplier:Multiplier_divider|One_Shot:One_Shot_Load_2|state
+Name state.Waiting_Shot state.Waiting_Not_Shot state.Shot_State 
+state.Waiting_Shot 0 0 0 
+state.Shot_State 1 0 1 
+state.Waiting_Not_Shot 1 1 0 
+
+State Machine - |Multiplier_divider_TOP|Sequential_Multiplier:Multiplier_divider|One_Shot:One_Shot_Load_1|state
+Name state.Waiting_Shot state.Waiting_Not_Shot state.Shot_State 
+state.Waiting_Shot 0 0 0 
+state.Shot_State 1 0 1 
+state.Waiting_Not_Shot 1 1 0 
+
+State Machine - |Multiplier_divider_TOP|Sequential_Multiplier:Multiplier_divider|One_Shot:One_Shot_Data|state
+Name state.Waiting_Shot state.Waiting_Not_Shot state.Shot_State 
+state.Waiting_Shot 0 0 0 
+state.Shot_State 1 0 1 
+state.Waiting_Not_Shot 1 1 0 
+
+State Machine - |Multiplier_divider_TOP|Sequential_Multiplier:Multiplier_divider|Control:Control_1|state
+Name state.PROCESS_D state.PROCESS_M state.WAIT state.LOAD_2 state.LOAD_1 state.000 
+state.000 0 0 0 0 0 0 
+state.LOAD_1 0 0 0 0 1 1 
+state.LOAD_2 0 0 0 1 0 1 
+state.WAIT 0 0 1 0 0 1 
+state.PROCESS_M 0 1 0 0 0 1 
+state.PROCESS_D 1 0 0 0 0 1 

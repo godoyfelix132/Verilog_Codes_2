@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Control.v(20): object "Load_1" differs only in case from object "LOAD_1" in the same scope File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v Line: 20
+Info (10281): Verilog HDL Declaration information at Control.v(21): object "Load_2" differs only in case from object "LOAD_2" in the same scope File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v Line: 21

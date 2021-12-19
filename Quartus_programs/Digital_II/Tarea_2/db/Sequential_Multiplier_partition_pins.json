@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "Product[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Product[9]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplicand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplicand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplicand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplicand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplicand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Multiplier[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

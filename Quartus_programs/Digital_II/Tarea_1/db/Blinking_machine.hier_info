@@ -1,0 +1,14 @@
+|Blinking_Machine
+clk => cicles[0].CLK
+clk => cicles[1].CLK
+clk => cicles[2].CLK
+clk => cicles[3].CLK
+clk => state.CLK
+reset => cicles[0].ACLR
+reset => cicles[1].ACLR
+reset => cicles[2].ACLR
+reset => cicles[3].ACLR
+reset => state.ACLR
+out <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

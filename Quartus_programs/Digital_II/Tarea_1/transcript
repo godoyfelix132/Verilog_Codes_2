@@ -1,0 +1,94 @@
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Multiplier_tb
+# vsim -gui work.Sequential_Multiplier_tb 
+# Start time: 13:32:05 on Mar 10,2021
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplicand'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplier'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (10) for port 'Product'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+add wave -position insertpoint sim:/Sequential_Multiplier_tb/*
+run
+run
+run
+run
+run
+run
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplicand'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplier'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (10) for port 'Product'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+run
+run
+run
+run
+run
+run
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplicand'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplier'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (10) for port 'Product'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplicand'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplier'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (10) for port 'Product'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+run
+run
+run
+run
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplicand'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Multiplier'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (10) for port 'Product'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_2/Source/Sequential_Multiplier_tb.v Line: 29
+run
+run
+run
+run
+run
+run
+run

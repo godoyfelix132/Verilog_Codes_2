@@ -1,0 +1,786 @@
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Multiplier_tb
+# vsim -gui work.Sequential_Multiplier_tb 
+# Start time: 13:59:34 on Mar 18,2021
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+add wave -position insertpoint sim:/Sequential_Multiplier_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Mux_Data_or_0/Selector
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/parallelInput
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/serialOutput
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/parallelOutput
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_left/parallelInput
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_left/serialOutput
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_left/parallelOutput
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+add wave -position 10  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/sel
+add wave -position 11  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/a
+add wave -position 12  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/b
+add wave -position 13  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/sum
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+restart
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 123
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(123): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 8, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 140
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(140): [TFMPC] - Missing connection for port 'parallelOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'A'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(17).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'B'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'C'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v(21).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Or File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 217
+run
+quit -sim
+# End time: 13:48:42 on Mar 20,2021, Elapsed time: 47:49:08
+# Errors: 0, Warnings: 8
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 13:50:10 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+add wave -position insertpoint sim:/Sequential_Divider_tb/*
+run
+run
+run
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+run
+restart
+run
+run
+run
+quit -sim
+# End time: 14:15:40 on Mar 20,2021, Elapsed time: 0:25:30
+# Errors: 0, Warnings: 1
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:16:03 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+add wave -position insertpoint sim:/Sequential_Divider_tb/*
+run
+run
+run
+run
+quit -sim
+# End time: 14:20:55 on Mar 20,2021, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 2
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:21:32 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+add wave -position insertpoint sim:/Sequential_Divider_tb/*
+run
+add wave -position end  sim:/Sequential_Divider_tb/DUT/product_reg
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+add wave -position end  sim:/Sequential_Divider_tb/DUT/N
+add wave -position end  sim:/Sequential_Divider_tb/DUT/Q
+restart
+run
+quit -sim
+# End time: 14:25:30 on Mar 20,2021, Elapsed time: 0:03:58
+# Errors: 0, Warnings: 1
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:25:48 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+add wave -position insertpoint sim:/Sequential_Divider_tb/*
+run
+add wave -position end  sim:/Sequential_Divider_tb/DUT/Q
+add wave -position end  sim:/Sequential_Divider_tb/DUT/N
+# Can't move the Now cursor.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 14:38:59 on Mar 20,2021, Elapsed time: 0:13:11
+# Errors: 0, Warnings: 1
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:40:24 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+# ** Error: (vsim-3043) Unresolved reference to 'division_tb'.
+#    Time: 0 ps  Iteration: 0  Instance: /Sequential_Divider_tb File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v Line: 44
+# Error loading design
+# End time: 14:40:25 on Mar 20,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:40:53 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+# ** Error: (vsim-3043) Unresolved reference to 'division_tb'.
+#    Time: 0 ps  Iteration: 0  Instance: /Sequential_Divider_tb File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v Line: 44
+# Error loading design
+# End time: 14:40:54 on Mar 20,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:41:49 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+# ** Error: (vsim-3043) Unresolved reference to 'division_tb'.
+#    Time: 0 ps  Iteration: 0  Instance: /Sequential_Divider_tb File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v Line: 44
+# Error loading design
+# End time: 14:41:51 on Mar 20,2021, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Divider_tb
+# vsim -gui work.Sequential_Divider_tb 
+# Start time: 14:42:14 on Mar 20,2021
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+add wave -position insertpoint sim:/Sequential_Divider_tb/*
+run
+# ** Note: $finish    : D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v(37)
+#    Time: 236 ps  Iteration: 0  Instance: /Sequential_Divider_tb
+# 1
+# Break in Module Sequential_Divider_tb at D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v line 37
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+run
+restart
+restart
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+run
+restart
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Divider_tb
+# Loading work.Sequential_Divider
+run
+run
+run
+run
+run

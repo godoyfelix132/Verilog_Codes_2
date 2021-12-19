@@ -1,0 +1,1609 @@
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Multiplier_tb
+# vsim -gui work.Sequential_Multiplier_tb 
+# Start time: 01:57:37 on Mar 21,2021
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+add wave -position insertpoint sim:/Sequential_Multiplier_tb/*
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (7) for port 'Data'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(12).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (14) for port 'Result'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(15).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v Line: 32
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (7) for port 'Data'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(12).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (14) for port 'Result'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(15).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v Line: 32
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+quit -sim
+# End time: 02:05:59 on Mar 21,2021, Elapsed time: 0:08:22
+# Errors: 0, Warnings: 7
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Multiplier_tb
+# vsim -gui work.Sequential_Multiplier_tb 
+# Start time: 02:06:21 on Mar 21,2021
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (7) for port 'Data'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(12).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (14) for port 'Result'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(15).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v Line: 32
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+add wave -position insertpoint sim:/Sequential_Multiplier_tb/*
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+step -over -current
+# ** UI-Msg: (vsim-12081) The specified scope, sim:/Sequential_Multiplier_tb, is not a process or thread.
+# 
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/sel
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/a
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/b
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/sum
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/serialOutput
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/shift
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+add wave -position 9  sim:/Sequential_Multiplier_tb/DUV/Control_1/state
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 144
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(144): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(161): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 145
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(145): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'Data_Input'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Register_Shift File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'Data_Output'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v(16).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Register_Shift File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 175
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(175): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+quit -sim
+# End time: 02:35:55 on Mar 21,2021, Elapsed time: 0:29:34
+# Errors: 0, Warnings: 7
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.Sequential_Multiplier_tb
+# vsim -gui work.Sequential_Multiplier_tb 
+# Start time: 02:36:21 on Mar 21,2021
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 145
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(145): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'Data_Input'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Register_Shift File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'Data_Output'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v(16).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Register_Shift File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 175
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(175): [TFMPC] - Missing connection for port 'parallelOutput'.
+add wave -position insertpoint sim:/Sequential_Multiplier_tb/*
+restart
+run
+add wave -position end sim:/Sequential_Multiplier_tb/DUV/Register_Shift/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 145
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(145): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'Data_Input'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Register_Shift File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'Data_Output'. The port definition is at: D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v(16).
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Register_Shift File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 161
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 175
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(175): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 145
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(145): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 175
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(175): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/load
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/shift
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/parallelInput
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/serialOutput
+add wave -position end  sim:/Sequential_Multiplier_tb/DUV/Shift_right/parallelOutput
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 145
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(145): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 175
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(175): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+add wave -position 10  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/a
+add wave -position 11  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/b
+add wave -position 12  sim:/Sequential_Multiplier_tb/DUV/Add_Sub_1/sum
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 145
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(145): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 175
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(175): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Or_Gate
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+# Compile of Register_With_Enable.v was successful.
+run
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Register_With_Reset
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+restart
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+run
+run
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# Compile of Add_Sub.v was successful.
+# Compile of And_Gate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Demux.v was successful.
+# Compile of Mux_Two_To_One.v was successful.
+# Compile of Not_Gate.v was successful.
+# Compile of One_Shot.v was successful.
+# Compile of Or_Gate.v was successful.
+# Compile of Register_With_Enable.v was successful.
+# Compile of Register_With_Reset.v was successful.
+# Compile of Sequential_Multiplier.v was successful.
+# Compile of Sequential_Multiplier_tb.v was successful.
+# Compile of Shift_Register_left.v was successful.
+# Compile of Shift_Register_rigth.v was successful.
+# Compile of Sequential_Divider_tb.v was successful.
+# Compile of Sequential_Divider.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Sequential_Multiplier_tb
+# Loading work.Sequential_Multiplier
+# Loading work.Control
+# Loading work.One_Shot
+# Loading work.Demux
+# Loading work.Register_With_Enable
+# Loading work.Shift_Register_left
+# Loading work.Shift_Register_rigth
+# Loading work.Mux_Two_To_One
+# Loading work.Add_Sub
+# Loading work.Register_With_Reset
+# Loading work.Or_Gate
+# Loading work.Counter
+# Loading work.Comparator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_left'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_left File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 146
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(146): [TFMPC] - Missing connection for port 'serialOutput'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Shift_right'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Sequential_Multiplier_tb/DUV/Shift_right File: D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v Line: 162
+# ** Warning: (vsim-3722) D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v(162): [TFMPC] - Missing connection for port 'parallelOutput'.
+run
+# End time: 03:13:17 on Mar 21,2021, Elapsed time: 0:36:56
+# Errors: 0, Warnings: 5

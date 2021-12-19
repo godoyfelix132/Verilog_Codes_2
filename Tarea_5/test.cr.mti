@@ -1,0 +1,61 @@
+{D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Shift_Register_rigth.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Shift_Register_rigth.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Multiplier_divider_TOP.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Multiplier_divider_TOP.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Or_Gate.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Or_Gate.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Sequential_Multiplier_tb.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Sequential_Multiplier_tb.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Mux_Two_To_One.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Mux_Two_To_One.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Register_With_Enable.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Register_With_Enable.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/One_Shot.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/One_Shot.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Comparator.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Comparator.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Counter.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Counter.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Control.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Control.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Sequential_Multiplier.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Sequential_Multiplier.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Add_Sub.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Add_Sub.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Register_With_Reset.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Register_With_Reset.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Demux.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Demux.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}} {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Shift_Register_left.v} {0 {vlog -work work -novopt -stats=none {D:/Respaldo/Maestria/2 - Cuatrimestre/Digital/Pizano/Tarea_5/Source/Shift_Register_left.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+
+} {} {}}

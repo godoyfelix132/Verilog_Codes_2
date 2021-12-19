@@ -1,0 +1,127 @@
+D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sequential_Divider_tb
+
+Top level modules:
+	Sequential_Divider_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_rigth.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_rigth.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_Register_rigth
+
+Top level modules:
+	Shift_Register_rigth
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Counter.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sequential_Multiplier
+
+Top level modules:
+	Sequential_Multiplier
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Not_Gate.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Not_Gate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Not_Gate
+
+Top level modules:
+	Not_Gate
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Reset.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Reset.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_With_Reset
+
+Top level modules:
+	Register_With_Reset
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Add_Sub.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Add_Sub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Add_Sub
+
+Top level modules:
+	Add_Sub
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Demux.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Demux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Demux
+
+Top level modules:
+	Demux
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_left.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Shift_Register_left.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_Register_left
+
+Top level modules:
+	Shift_Register_left
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Multiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sequential_Multiplier_tb
+
+Top level modules:
+	Sequential_Multiplier_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Mux_Two_To_One.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Mux_Two_To_One.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux_Two_To_One
+
+Top level modules:
+	Mux_Two_To_One
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Register_With_Enable.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_With_Enable
+
+Top level modules:
+	Register_With_Enable
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/One_Shot.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/One_Shot.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module One_Shot
+
+Top level modules:
+	One_Shot
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Comparator.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Comparator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Or_Gate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Or_Gate
+
+Top level modules:
+	Or_Gate
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/Sequential_Divider.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sequential_Divider
+
+Top level modules:
+	Sequential_Divider
+
+} {} {}} D:/Quartus_programs/Digital_II/Tarea_3/Source/And_Gate.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Tarea_3/Source/And_Gate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module And_Gate
+
+Top level modules:
+	And_Gate
+
+} {} {}}

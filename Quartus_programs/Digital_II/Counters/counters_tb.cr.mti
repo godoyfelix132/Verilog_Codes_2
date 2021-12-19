@@ -1,0 +1,92 @@
+D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_0_99_TOP_tb
+
+Top level modules:
+	Counter_0_99_TOP_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_BCD_TOP
+
+Top level modules:
+	Counter_BCD_TOP
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Clock_Divider.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Clock_Divider.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Clock_Divider
+
+Top level modules:
+	Clock_Divider
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_gray
+
+Top level modules:
+	Counter_gray
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_binary_TOP_tb
+
+Top level modules:
+	Counter_binary_TOP_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_binary
+
+Top level modules:
+	Counter_binary
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_binary_TOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_binary_TOP
+
+Top level modules:
+	Counter_binary_TOP
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_LSFR_tb
+
+Top level modules:
+	Counter_LSFR_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_one_hot
+
+Top level modules:
+	Counter_one_hot
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_LFSR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_LFSR
+
+Top level modules:
+	Counter_LFSR
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_BCD_TOP_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_BCD_TOP_tb
+
+Top level modules:
+	Counter_BCD_TOP_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_gray_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_gray_tb
+
+Top level modules:
+	Counter_gray_tb
+
+} {} {}} D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_tb.v {1 {vlog -work work -stats=none D:/Quartus_programs/Digital_II/Counters/Source/Counter_one_hot_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_one_hot_tb
+
+Top level modules:
+	Counter_one_hot_tb
+
+} {} {}}
